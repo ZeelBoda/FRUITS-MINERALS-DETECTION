@@ -1,6 +1,5 @@
 # What's Fresh & What's Rotten, Offline image classification web app
 
-### Group BDG-4B
 
 What's Fresh & What's Rotten is our way to solve problem about fruits classification whether it is rotten or it is fresh (safely can be eaten) using Deep Learning. We do simple CNN to expect some basic performance this simple CNN had in the dataset. Then we improved the model by adding Transfer Learning with ResNet50 as our baseline model.
 
@@ -32,11 +31,7 @@ This dataset has 10901 training data and 2698 test data divided into 6 classes:
 5. Rotten banana
 6. Rotten orange
 
-### 2. Notebook
-
-You can refer to this [notebook](https://github.com/sanggusti/final_bangkit/blob/master/example_model/Final_Project_Bangkit.ipynb) as baseline implementation with Convolutional Neural Network. You can also refer to improvement of this model in this [link 1](https://github.com/sanggusti/final_bangkit/blob/master/example_model/Fresh_and_Rotten_Fruits_Classi.ipynb), [link 2](https://github.com/sanggusti/final_bangkit/blob/master/example_model/rotten_vs_fresh.ipynb), and improvement with [transfer learning with ResNet50](https://github.com/sanggusti/final_bangkit/blob/master/example_model/transfer_learningv2.ipynb)
-
-### 3. Save model
+### 2. Save model
 
 After training, you can save model into Keras hdf5 file by using this command in your notebook:
 ```
@@ -94,7 +89,7 @@ Since content is served cache/storage first, we need a way to serve new content 
 
 ### 1. Clone the repo
 
-Clone the `final_bangkit` locally. In a terminal, run:
+Clone the `ZeelBoda` locally. In a terminal, run:
 
 ```
 git clone <your-url>
@@ -103,7 +98,7 @@ git clone <your-url>
 Now go to the cloned repo directory:
 
 ```
-cd final_bangkit
+cd ZeelBoda
 ```
 
 
